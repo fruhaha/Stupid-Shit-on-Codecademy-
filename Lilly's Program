@@ -1,0 +1,21 @@
+public class Switch {
+	public static void main(String[] args) {
+		Console console = System.console()
+;
+    
+   String input = console.readLine("Enter input:");
+
+    
+   switch (input) {
+     case "Yes":System.out.println("Damn Lilly you're a queer") ;
+       break;  
+       
+       case "No":System.out.println("Damn Lilly you're still in the closet");
+         break; 
+         default:System.out.println("Put in yes or no faggot");
+           break;
+
+    }       
+  }
+}
+
